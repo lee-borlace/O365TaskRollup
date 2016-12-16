@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="79c937ea-5370-402d-8371-7fd2c2b01536" 
+        solutionId="79c937ea-5370-402d-8371-7fd2c2b01536" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="O365TaskRollupApp"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="a5748050-0425-4155-93c5-662f4d6ac759" />
+  </features>
+</package>
