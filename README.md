@@ -1,2 +1,29 @@
-# O365TaskRollup
-Initial publish to Github.
+# Office 365 Task Rollup
+In Office 365, your tasks can be all over the place and there's no way to get an easy view across all of them. 
+
+This project lets you roll up your assorted tasks from the following locations into one easy view:
+* Team Planners
+* Group Planners
+* Outlook / Exchange
+* SharePoint tasks lists
+## Prerequisites
+* Visual Studio with Microsoft Office Developer Tools for Visual Studio installed.
+* Node
+* NPM
+
+## Architecture
+This is a SharePoint-hosted add-in which uses Angular 2.
+
+## node / npm
+This project uses npm for its various Javascript packages. 
+
+To download them all, open a Node command prompt in the project folder and run `npm install`
+
+To add new packages to the solution later, run the following from the node command line. For packages only required in production build:
+
+`npm install packageName --save`.
+
+For packages required in dev build too:
+
+`npm install packageName --save-dev`
+

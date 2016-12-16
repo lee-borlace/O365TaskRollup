@@ -2,6 +2,5 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="RootModule">
     <File Path="package.json" Url="package.json" ReplaceContent="TRUE" />
-    <File Path="readme.txt" Url="readme.txt" ReplaceContent="TRUE" />
   </Module>
 </Elements>

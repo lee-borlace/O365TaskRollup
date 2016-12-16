@@ -3,6 +3,5 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Type="ElementManifest" />
     <ProjectItemFile Source="package.json" Type="ElementFile" />
-    <ProjectItemFile Source="readme.txt" Type="ElementFile" />
   </Files>
 </ProjectItem>

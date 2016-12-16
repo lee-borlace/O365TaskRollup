@@ -60,7 +60,6 @@
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{177c346a-58ea-4697-9da5-13386b68f9d2}</SharePointProjectItemId>
     </None>
-    <Content Include="readme.txt" />
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
