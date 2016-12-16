@@ -50,6 +50,7 @@
     <Content Include="Elements.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Scripts\app.component.js.map" />
     <None Include="Scripts\app.module.js.map" />
     <None Include="SharePointProjectItem.spdata">
       <SharePointProjectItemId>{7054761c-6327-4174-9497-cc0705fb7b10}</SharePointProjectItemId>
@@ -60,6 +61,7 @@
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{177c346a-58ea-4697-9da5-13386b68f9d2}</SharePointProjectItemId>
     </None>
+    <Content Include="Scripts\app.component.js" />
     <Content Include="Scripts\app.module.js" />
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
@@ -101,7 +103,9 @@
     </AppManifestFile>
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\boot.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
@@ -110,6 +114,7 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup>
-    <PreBuildEvent>tsc</PreBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
   </PropertyGroup>
 </Project>
