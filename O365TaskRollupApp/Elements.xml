@@ -2,5 +2,6 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="RootModule">
     <File Path="package.json" Url="package.json" ReplaceContent="TRUE" />
+    <File Path="tsconfig.json" Url="tsconfig.json" ReplaceContent="TRUE" />
   </Module>
 </Elements>
