@@ -3,5 +3,7 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
     <ProjectItemFile Source="jquery-1.9.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="app.module.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="app.module.js.map" Target="Scripts\" Type="ElementFile" />
   </Files>
 </ProjectItem>

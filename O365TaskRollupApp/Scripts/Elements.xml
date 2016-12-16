@@ -2,5 +2,7 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Scripts">
     <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app.module.js" Url="Scripts/app.module.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app.module.js.map" Url="Scripts/app.module.js.map" ReplaceContent="TRUE" />
   </Module>
 </Elements>
