@@ -48,6 +48,7 @@
       <SharePointProjectItemId>{0cc5ef41-886a-4f42-8b66-80a1b31c06b2}</SharePointProjectItemId>
     </None>
     <Content Include="Elements.xml" />
+    <Content Include="gulpfile.js" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
     <None Include="Scripts\app.component.js.map" />

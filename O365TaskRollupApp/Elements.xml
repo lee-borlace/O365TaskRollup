@@ -3,5 +3,6 @@
   <Module Name="RootModule">
     <File Path="package.json" Url="package.json" ReplaceContent="TRUE" />
     <File Path="tsconfig.json" Url="tsconfig.json" ReplaceContent="TRUE" />
+    <File Path="gulpfile.js" Url="gulpfile.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

@@ -13,6 +13,14 @@ This project was started based on Scot Hillier's article [Build a SharePoint Add
 * Visual Studio with Microsoft Office Developer Tools for Visual Studio installed.
 * Node
 * NPM
+  * Golbal packages
+    * gulp
+    * typescript
+    * gulp-typescript
+* Visual Studio add-ins :
+  * 2015 Node.js Tools
+  * NPM Task Runner
+  * Typescript 2.0
 
 ## Architecture
 This is a SharePoint-hosted add-in which uses Angular 2.
