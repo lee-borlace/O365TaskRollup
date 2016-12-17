@@ -1,18 +1,18 @@
 {
   "compilerOptions": {
-    "noImplicitAny": false,
-    "noEmitOnError": true,
-    "removeComments": false,
-    "sourceMap": true,
-    "target": "es5",
-    "module": "system",
+    "target": "es6",
+    "module": "commonjs",
     "moduleResolution": "node",
+    "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "outDir": "./Scripts"
+    "removeComments": false,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
   },
   "exclude": [
-    "node_modules"
-  ],
-  "compileOnSave": true
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ]
 }

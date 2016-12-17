@@ -9,7 +9,7 @@ System.register([], function(exports_1, context_1) {
                 function Welcome() {
                 }
                 Welcome.getMessage = function () {
-                    return "Here is some text from TS!!!";
+                    return "Here is some text from TS!!!!";
                 };
                 return Welcome;
             }());
