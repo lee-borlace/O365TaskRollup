@@ -1,18 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noEmitOnError": false,
+    "removeComments": false,
     "sourceMap": true,
+    "target": "es6",
+    "module": "system",
+    "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "removeComments": false,
-    "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true
+    "outDir": "./Scripts"
   },
   "exclude": [
-    "node_modules",
-    "typings/main",
-    "typings/main.d.ts"
+    "node_modules"
   ]
 }

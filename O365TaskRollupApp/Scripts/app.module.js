@@ -5,14 +5,11 @@ System.register([], function(exports_1, context_1) {
     return {
         setters:[],
         execute: function() {
-            Welcome = (function () {
-                function Welcome() {
+            Welcome = class Welcome {
+                static getMessage() {
+                    return "Here is some text from TS!!!!!!!";
                 }
-                Welcome.getMessage = function () {
-                    return "Here is some text from TS!!!!";
-                };
-                return Welcome;
-            }());
+            };
             exports_1("Welcome", Welcome);
         }
     }

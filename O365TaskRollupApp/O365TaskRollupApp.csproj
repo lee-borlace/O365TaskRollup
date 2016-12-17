@@ -52,6 +52,7 @@
     <Content Include="Pages\Default.aspx" />
     <None Include="Scripts\app.component.js.map" />
     <None Include="Scripts\app.module.js.map" />
+    <None Include="Scripts\boot.js.map" />
     <None Include="SharePointProjectItem.spdata">
       <SharePointProjectItemId>{7054761c-6327-4174-9497-cc0705fb7b10}</SharePointProjectItemId>
     </None>
@@ -63,6 +64,7 @@
     </None>
     <Content Include="Scripts\app.component.js" />
     <Content Include="Scripts\app.module.js" />
+    <Content Include="Scripts\boot.js" />
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\_references.js" />
