@@ -7,16 +7,17 @@ This project lets you roll up your assorted tasks from the following locations i
 * Outlook / Exchange
 * SharePoint tasks lists
 
-This project was started based on Scot Hillier's article [Build a SharePoint Add-In with Angular2 and TypeScript](https://www.itunity.com/article/build-sharepoint-addin-angular2-typescript-3059) so see that for info on getting started with a project like this one.
+This project was started based on the following, so see those for info on getting started with a project like this one.
+* Scot Hillier's article [Build a SharePoint Add-In with Angular2 and TypeScript](https://www.itunity.com/article/build-sharepoint-addin-angular2-typescript-3059) .
+* Amal's article [Develop SharePoint Addins with Angular 2](https://amalzblog.wordpress.com/2016/05/30/develop-sharepoint-addin-with-angular-2/)
 
 ## Prerequisites
 * Visual Studio with Microsoft Office Developer Tools for Visual Studio installed.
 * Node
 * NPM
-  * Golbal packages
+  * Globally-installed packages
     * gulp
-    * typescript
-    * gulp-typescript
+    * webpack
 * Visual Studio add-ins :
   * 2015 Node.js Tools
   * NPM Task Runner

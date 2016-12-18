@@ -9,5 +9,11 @@
     <ProjectItemFile Source="app.component.js.map" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="boot.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="boot.js.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="app.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="app.js.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="polyfills.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="polyfills.js.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="vendor.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="vendor.js.map" Target="Scripts\" Type="ElementFile" />
   </Files>
 </ProjectItem>

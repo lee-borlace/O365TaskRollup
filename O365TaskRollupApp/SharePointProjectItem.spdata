@@ -5,5 +5,11 @@
     <ProjectItemFile Source="package.json" Type="ElementFile" />
     <ProjectItemFile Source="tsconfig.json" Type="ElementFile" />
     <ProjectItemFile Source="gulpfile.js" Type="ElementFile" />
+    <ProjectItemFile Source="webpack\webpackHelper.js" Target="webpack\" Type="ElementFile" />
+    <ProjectItemFile Source="webpack\webpack.common.js" Target="webpack\" Type="ElementFile" />
+    <ProjectItemFile Source="webpack\webpack.dev.js" Target="webpack\" Type="ElementFile" />
+    <ProjectItemFile Source="webpack.config.js" Type="ElementFile" />
+    <ProjectItemFile Source="webpack\polyfills.ts" Target="webpack\" Type="ElementFile" />
+    <ProjectItemFile Source="webpack\vendor.ts" Target="webpack\" Type="ElementFile" />
   </Files>
 </ProjectItem>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="a5748050-0425-4155-93c5-662f4d6ac759" Scope="Web" Title="O365TaskRollupApp Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\jquery-1.9.1.intellisense.js" />
+    <ElementFile Location="Scripts\app.module.js" />
+    <ElementFile Location="Scripts\app.module.js.map" />
+    <ElementFile Location="Scripts\app.component.js" />
+    <ElementFile Location="Scripts\app.component.js.map" />
+    <ElementFile Location="Scripts\boot.js" />
+    <ElementFile Location="Scripts\boot.js.map" />
+    <ElementFile Location="Scripts\app.js" />
+    <ElementFile Location="Scripts\app.js.map" />
+    <ElementFile Location="Scripts\polyfills.js" />
+    <ElementFile Location="Scripts\polyfills.js.map" />
+    <ElementFile Location="Scripts\vendor.js" />
+    <ElementFile Location="Scripts\vendor.js.map" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementManifest Location="Elements.xml" />
+    <ElementFile Location="package.json" />
+    <ElementFile Location="tsconfig.json" />
+    <ElementFile Location="gulpfile.js" />
+    <ElementFile Location="webpack\webpackHelper.js" />
+    <ElementFile Location="webpack\webpack.common.js" />
+    <ElementFile Location="webpack\webpack.dev.js" />
+    <ElementFile Location="webpack.config.js" />
+    <ElementFile Location="webpack\polyfills.ts" />
+    <ElementFile Location="webpack\vendor.ts" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

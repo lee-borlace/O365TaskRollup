@@ -43,17 +43,27 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\polyfills.js" />
+    <Content Include="Scripts\vendor.js" />
+    <Content Include="webpack\webpack.common.js" />
+    <Content Include="webpack.config.js" />
     <None Include="package.json" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{0cc5ef41-886a-4f42-8b66-80a1b31c06b2}</SharePointProjectItemId>
     </None>
+    <Content Include="webpack\webpack.dev.js" />
+    <Content Include="webpack\webpackHelper.js" />
     <Content Include="Elements.xml" />
     <Content Include="gulpfile.js" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
     <None Include="Scripts\app.component.js.map" />
+    <None Include="Scripts\app.js.map" />
     <None Include="Scripts\app.module.js.map" />
     <None Include="Scripts\boot.js.map" />
+    <None Include="Scripts\polyfills.js.map" />
+    <None Include="Scripts\vendor.js.map" />
     <None Include="SharePointProjectItem.spdata">
       <SharePointProjectItemId>{7054761c-6327-4174-9497-cc0705fb7b10}</SharePointProjectItemId>
     </None>
@@ -109,10 +119,10 @@
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\boot.ts" />
+    <TypeScriptCompile Include="webpack\polyfills.ts" />
+    <TypeScriptCompile Include="webpack\vendor.ts" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="config\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

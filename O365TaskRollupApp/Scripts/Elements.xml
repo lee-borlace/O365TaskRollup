@@ -8,5 +8,11 @@
     <File Path="Scripts\app.component.js.map" Url="Scripts/app.component.js.map" ReplaceContent="TRUE" />
     <File Path="Scripts\boot.js" Url="Scripts/boot.js" ReplaceContent="TRUE" />
     <File Path="Scripts\boot.js.map" Url="Scripts/boot.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\app.js" Url="Scripts/app.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app.js.map" Url="Scripts/app.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\polyfills.js" Url="Scripts/polyfills.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\polyfills.js.map" Url="Scripts/polyfills.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\vendor.js" Url="Scripts/vendor.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\vendor.js.map" Url="Scripts/vendor.js.map" ReplaceContent="TRUE" />
   </Module>
 </Elements>
