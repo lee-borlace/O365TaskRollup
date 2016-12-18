@@ -17,18 +17,16 @@
     <script type="text/javascript" src="https://code.angularjs.org/2.0.0-beta.0/Rx.js"></script>
     <script type="text/javascript" src="https://code.angularjs.org/2.0.0-beta.0/angular2.dev.js"></script>
 
-    <script type="text/javascript">
-        System.config({
-            packages: {
-                '../scripts': {
-                    format: 'register',
-                    defaultExtension: 'js'
-                }
-            }
-        });
-        System.import('../scripts/boot')
-              .then(null, console.error.bind(console));
+    <!-- Polyfill(s) for older browsers -->
+    <script type="text/javascript" src="node_modules/core-js/client/shim.min.js"></script>
+    <script type="text/javascript" src="node_modules/zone.js/dist/zone.js"></script>
+    <script type="text/javascript" src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script type="text/javascript" src="node_modules/systemjs/dist/system.src.js"></script>
+    <script type="text/javascript" src="systemjs.config.js"></script>
+    <script type="text/javascript" >
+        System.import('app').catch(function (err) { console.error(err); });
     </script>
+
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
@@ -39,11 +37,6 @@
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
-    <div>
-        <p id="message">
-            <!-- The following content will be replaced with the user name when you run the app - see App.js -->
-            initializing...
-        </p>
-    </div>
+    <app-main></app-main>
 
 </asp:Content>

@@ -1,0 +1,3 @@
+C:\Users\lee\Documents\DEV\Github\O365TaskRollup\O365TaskRollupApp\bin\Debug\O365TaskRollupApp.pdb
+C:\Users\lee\Documents\DEV\Github\O365TaskRollup\O365TaskRollupApp\obj\Debug\O365TaskRollupApp.dll
+C:\Users\lee\Documents\DEV\Github\O365TaskRollup\O365TaskRollupApp\obj\Debug\O365TaskRollupApp.pdb
