@@ -31,6 +31,7 @@
     <ElementFile Location="webpack.config.js" />
     <ElementFile Location="webpack\polyfills.ts" />
     <ElementFile Location="webpack\vendor.ts" />
+    <ElementFile Location="app\app.component.html" />
   </ElementManifests>
   <UpgradeActions>
     <VersionRange>

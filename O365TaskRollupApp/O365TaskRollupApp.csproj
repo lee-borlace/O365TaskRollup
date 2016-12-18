@@ -43,6 +43,7 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="app\app.component.html" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\polyfills.js" />
     <Content Include="Scripts\vendor.js" />

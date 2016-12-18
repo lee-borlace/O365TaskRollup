@@ -10,5 +10,6 @@
     <File Path="webpack.config.js" Url="webpack.config.js" ReplaceContent="TRUE" />
     <File Path="webpack\polyfills.ts" Url="webpack/polyfills.ts" ReplaceContent="TRUE" />
     <File Path="webpack\vendor.ts" Url="webpack/vendor.ts" ReplaceContent="TRUE" />
+    <File Path="app\app.component.html" Url="Scripts/app.component.html" ReplaceContent="TRUE" />
   </Module>
 </Elements>

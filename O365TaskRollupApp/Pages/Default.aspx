@@ -29,6 +29,6 @@
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
-    <app-main></app-main>
+    <my-app></my-app>
 
 </asp:Content>

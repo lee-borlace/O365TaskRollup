@@ -8,14 +8,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-const app_module_1 = require('./app.module');
 const core_1 = require('@angular/core');
 let AppComponent = class AppComponent {
 };
 AppComponent = __decorate([
     core_1.Component({
-        selector: 'app-main',
-        template: `<h1>${app_module_1.Welcome.getMessage()}</h1>`
+        selector: 'my-app',
+        templateUrl: './app.component.html'
     }), 
     __metadata('design:paramtypes', [])
 ], AppComponent);

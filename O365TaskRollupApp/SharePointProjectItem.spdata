@@ -11,5 +11,6 @@
     <ProjectItemFile Source="webpack.config.js" Type="ElementFile" />
     <ProjectItemFile Source="webpack\polyfills.ts" Target="webpack\" Type="ElementFile" />
     <ProjectItemFile Source="webpack\vendor.ts" Target="webpack\" Type="ElementFile" />
+    <ProjectItemFile Source="app\app.component.html" Target="app\" Type="ElementFile" />
   </Files>
 </ProjectItem>
