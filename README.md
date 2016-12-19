@@ -42,7 +42,9 @@ if (global.Zone) {
 When there is time this will be automated with a gulp task.
 
 ## Building and Packaging
-Webpack is responsible for compiling typescript and assembling JS / CSS / HTML resources. This generates various files in **Scripts** :
+Webpack is responsible for compiling typescript and assembling JS / CSS / HTML resources. To see any compilation errors, you need to look at the **Task Runner Explorer** window after building to see if Webpack has generated any red error messages.
+
+This various files are generated in **Scripts** folder :
 * polyfill.js
 * polyfill.js.map
 * vendor.js
