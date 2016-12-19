@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="79c937ea-5370-402d-8371-7fd2c2b01536" SharePointProductVersion="16.0">
-  <FeatureManifests>
-    <FeatureManifest Location="O365TaskRollupApp_Feature1\Feature.xml" />
-  </FeatureManifests>
-</Solution>

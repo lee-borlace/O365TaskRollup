@@ -39,8 +39,8 @@ webpackJsonp([0],{
 	            app_component_1.AppComponent
 	        ],
 	        bootstrap: [app_component_1.AppComponent]
-	    }), 
-	    __metadata('design:paramtypes', [])
+	    }),
+	    __metadata("design:paramtypes", [])
 	], AppModule);
 	exports.AppModule = AppModule;
 
@@ -67,8 +67,8 @@ webpackJsonp([0],{
 	    core_1.Component({
 	        selector: 'my-app',
 	        template: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./app.component.html\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
-	    }), 
-	    __metadata('design:paramtypes', [])
+	    }),
+	    __metadata("design:paramtypes", [])
 	], AppComponent);
 	exports.AppComponent = AppComponent;
 

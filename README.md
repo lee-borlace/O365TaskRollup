@@ -19,9 +19,15 @@ This project was started based on the following, so see those for info on gettin
     * gulp
     * webpack
 * Visual Studio add-ins :
-  * 2015 Node.js Tools
-  * NPM Task Runner
-  * Typescript 2.0
+  * 2015 Node.js Tools. Can be downloaded [here](https://www.visualstudio.com/vs/node-js/)
+  * NPM Task Runner. Can be downloaded [here](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner)
+  * Typescript 2.0 (can be downloaded from [here](http://download.microsoft.com/download/6/D/8/6D8381B0-03C1-4BD2-AE65-30FF0A4C62DA/TS2.0.3-TS-release20-nightly-20160921.1/TypeScript_Dev14Full.exe))
+* Typescript 2.0 installed on dev machine.
+
+`npm install -g typescript@2.0`
+
+* v2.0 of tsc.exe is in PATH environment variable (e.g. C:\Program Files (x86)\Microsoft SDKs\TypeScript\2.0\).
+* From the command line of the O365TaskRollupApp project, run `npm install` before trying to build the solution.
 
 ## Architecture
 This is a SharePoint-hosted add-in which uses Angular 2.

@@ -2,16 +2,7 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
-    <SharePointSiteUrl>https://lee79.sharepoint.com/sites/dev/O365TaskRollupApp/</SharePointSiteUrl>
+    <SharePointSiteUrl>https://lee79dev.sharepoint.com/sites/dev/O365TaskRollup/</SharePointSiteUrl>
   </PropertyGroup>
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{C1CDDADD-2546-481F-9697-4EA41081F2FC}">
-        <ProjectStore>
-          <AppInstancePackageModifiedTime>2016-12-18T03:19:41.3579573Z</AppInstancePackageModifiedTime>
-          <AppInstanceId>b6a8a1a7-cabd-415d-b7f1-4475b974cd1e</AppInstanceId>
-        </ProjectStore>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
+  <ProjectExtensions />
 </Project>
