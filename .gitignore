@@ -27,6 +27,8 @@ bld/
 **/[Pp]kg/debug/
 **/[Oo]bj/debug/
 **/[Pp]kgobj/debug/
+**/[Ss]cripts/**/*.js
+**/[Ss]cripts/**/*.js.map
 
 # Visual Studio 2015 cache/options directory
 .vs/
