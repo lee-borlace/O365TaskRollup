@@ -4,5 +4,14 @@
     <ProjectView>ShowAllFiles</ProjectView>
     <SharePointSiteUrl>https://lee79dev.sharepoint.com/sites/dev/O365TaskRollup/</SharePointSiteUrl>
   </PropertyGroup>
-  <ProjectExtensions />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{C1CDDADD-2546-481F-9697-4EA41081F2FC}">
+        <ProjectStore>
+          <AppInstancePackageModifiedTime>2016-12-19T10:08:44.5656941Z</AppInstancePackageModifiedTime>
+          <AppInstanceId>1739e153-1438-4d46-96e0-f415bf8f0f6e</AppInstanceId>
+        </ProjectStore>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

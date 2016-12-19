@@ -8,17 +8,6 @@
 
 <%-- The markup and script in the following Content element will be placed in the <head> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
-    
-    <script type="text/javascript" src="../Scripts/polyfills.js"></script>
-    <script type="text/javascript" src="../Scripts/vendor.js"></script>
-    <script type="text/javascript" src="../Scripts/app.js"></script>
-
-
-<%--    <script type="text/javascript" src="systemjs.config.js"></script>
-    <script type="text/javascript" >
-        System.import('app').catch(function (err) { console.error(err); });
-    </script>--%>
-
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
@@ -28,7 +17,8 @@
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
-
     <my-app></my-app>
-
+    <script type="text/javascript" src="../Scripts/polyfills.js"></script>
+    <script type="text/javascript" src="../Scripts/vendor.js"></script>
+    <script type="text/javascript" src="../Scripts/app.js"></script>
 </asp:Content>
