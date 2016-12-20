@@ -34,8 +34,12 @@ gulp.task('webpack:build-dev', function (callback) {
 // Due to this bug with Zone.js : https://github.com/angular/zone.js/issues/434, we have to make a modification to Zone.js to avoid an issue.
 // We could manually edit the file whenever we get it via npm, but easier this way.
 gulp.task('zoneJsSPFix', function () {
-    //gulp.src(['node_modules/zone.js/dist/zone.js'])
-    //  .pipe(replace(/LEE123/g, 'CLARE123'))
-    //  .pipe(gulp.dest('zone.js'));
+
+    var patternLineToComment = /throw new Error\('Zone already loaded\.'\);/gim;
+    var replacement = '//This originally threw an error here but was commented out via Gulp task zoneJsSPFix to address an issue with SP.';
+
+    gulp.src(['node_modules/zone.js/dist/zone.js'])
+      .pipe(replace(patternLineToComment, replacement))
+      .pipe(gulp.dest('node_modules/zone.js/dist', { overwrite: true }));
 });
 
